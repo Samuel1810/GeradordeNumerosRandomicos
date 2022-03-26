@@ -1,0 +1,21 @@
+body{
+    zoom: 200%;
+    background-color: rgb(236, 236, 236);
+}
+button{
+    height: 50px;
+    width: 135px;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    background-color: white;
+}
+.inputs{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+button:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
