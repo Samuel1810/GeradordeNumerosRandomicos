@@ -1,6 +1,7 @@
 body{
     zoom: 200%;
     background-color: rgb(236, 236, 236);
+    text-align: center;
 }
 button{
     height: 50px;

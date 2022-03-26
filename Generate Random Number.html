@@ -1,35 +1,16 @@
 <html lang="pt-br">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
-    <style>
-        body{
-            zoom:150%;
-        }
-    </style>
-        <script>
-            function getRandomNum(min, max){
-                min = Math.ceil(min);
-                max = Math.floor(max);
-                return Math.floor(Math.random() * (max - min)) + min;
-            }
-            
-            function gerarnum(){ 
-                var min = document.getElementById("minimum").value;
-                var max = document.getElementById("maximum").value;
-                var resultado = getRandomNum(min, max);
-                
-                document.getElementById("demo").innerHTML = resultado;
-            }
-
-        </script>
+        <link rel="stylesheet" href="GRN.CSS">
+        <script type="text/javascript" src="GRN.JS"></script>
         <title>Gerador de número randômico</title>
     </head>
         <body>
-            <center>
-                <h1>Gerador de número randômico</h1>
-                Mínimo: <input type="number" id="minimum" value="1"><br><br>
-                Máximo: <input type="number" id="maximum" value="100"><br><br>
-                <button id="btn1" onclick="gerarnum()">Gerar número</button><br><br>
-                <div> <p id="demo"></p> </div>
+            <h1>Gerador de número randômico</h1>
+            Mínimo: <input type="number" id="minimum" value="1"><br><br>
+            Máximo: <input type="number" id="maximum" value="100"><br><br>
+            <button id="btn1" onclick="gerarnum()">Gerar número</button><br><br>
+            <div> <p id="demo"></p> </div>
         </body>
 </html>
