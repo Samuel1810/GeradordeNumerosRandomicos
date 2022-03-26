@@ -5,7 +5,6 @@ function getRandomNum(min, max){
 }
 
 function generateNum(){
-    if(min > max || max < min){} 
     var min = parseFloat(document.getElementById("minimum").value);
     var max = parseFloat(document.getElementById("maximum").value);
     var result = parseFloat(getRandomNum(min, max));
